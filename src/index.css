@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #151515;
+  --secondary-color: #4ee1a0;
+  --main-color: #ffffff;
+  --medium-color: #242424;
+  --light-color: #d9d9d9;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--main-color);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/* header logo and navbar */
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 194px 0 165px;
+}
+
+.name-logo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.nav-icons {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  justify-content: flex-end;
+  gap: 32px;
+  align-items: center;
+}
+
+/* flexbox intro section */
+
+.flex-intro {
+  display: flex;
+}
+
+.profile-pic {
+  width: 445px;
+  height: 720px;
+}
