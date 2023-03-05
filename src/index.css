@@ -38,8 +38,12 @@ body {
 
 /* flexbox intro section */
 
-.flex-intro {
+.flex-intro-container {
   display: flex;
+}
+
+.intro-container {
+  width: 706px;
 }
 
 .profile-pic {
