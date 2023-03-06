@@ -1,7 +1,7 @@
 :root {
   --primary-color: #151515;
   --secondary-color: #4ee1a0;
-  --main-color: #ffffff;
+  --main-text-color: #ffffff;
   --medium-color: #242424;
   --light-color: #d9d9d9;
 }
@@ -13,7 +13,7 @@
 
 body {
   background-color: var(--primary-color);
-  color: var(--main-color);
+  color: var(--main-text-color);
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -48,6 +48,7 @@ body {
   display: flex;
   margin-left: 225px;
   margin-right: 0;
+  margin-top: 115px;
 }
 
 .intro-container {
@@ -80,7 +81,24 @@ h1 {
   font-size: 18px;
 }
 
-/* GRID work experience sextion */
+.contact-link {
+  font-size: 16px;
+  margin-top: 65px;
+  display: inline-block;
+  margin-left: 225px;
+  color: var(--main-text-color);
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 2.28px;
+  text-decoration: none;
+  border-bottom: 2px solid #4ee1a0;
+  padding-bottom: 10px;
+}
+
+hr {
+  margin-top: 219px;
+}
+/* GRID work experience section */
 
 .work-experience {
   margin-top: 323px;
