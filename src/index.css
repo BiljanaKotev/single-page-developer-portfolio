@@ -42,6 +42,14 @@ body {
   z-index: 99;
 }
 
+/* rings svg */
+
+.rings-container {
+  position: absolute;
+  top: 133px;
+  right: 760px;
+}
+
 /* flexbox intro section */
 
 .flex-intro-container {
