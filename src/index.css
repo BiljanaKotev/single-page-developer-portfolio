@@ -35,7 +35,7 @@ body {
 .nav-icons {
   display: flex;
   width: 25px;
-  height: 25px;
+  height: px25px;
   justify-content: flex-end;
   gap: 32px;
   align-items: center;
@@ -74,6 +74,14 @@ body {
 .profile-pic {
   width: 445px;
   height: 720px;
+}
+
+.circle-img {
+  width: 129px;
+  position: absolute;
+  top: 521px;
+  right: 545px;
+  left: -70px;
 }
 
 h1 {
