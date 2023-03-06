@@ -107,7 +107,8 @@ h1 {
 }
 
 hr {
-  margin-top: 219px;
+  width: 1110px;
+  margin: 219px auto;
 }
 /* GRID work experience section */
 
