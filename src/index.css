@@ -23,7 +23,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 39px 194px 0 165px;
+  margin: 39px 275px 0 165px;
 }
 
 .name-logo {
@@ -47,14 +47,14 @@ body {
 .rings-container {
   position: absolute;
   top: 133px;
-  right: 760px;
+  left: -100px;
 }
 
 /* flexbox intro section */
 
 .flex-intro-container {
   display: flex;
-  margin-left: 225px;
+  margin-left: 165px;
   margin-right: 0;
   margin-top: 115px;
 }
@@ -66,7 +66,7 @@ body {
 .profile-pic-container {
   position: absolute;
   margin-right: 0px;
-  left: 900px;
+  left: 830px;
   top: 0px;
   right: 165px;
 }
@@ -87,13 +87,16 @@ h1 {
 .intro-p {
   width: 445px;
   font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--light-color);
 }
 
 .contact-link {
   font-size: 16px;
   margin-top: 65px;
   display: inline-block;
-  margin-left: 225px;
+  margin-left: 165px;
   color: var(--main-text-color);
   line-height: 26px;
   font-weight: 700;
