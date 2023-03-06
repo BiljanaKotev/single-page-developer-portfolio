@@ -6,6 +6,11 @@
   --light-color: #d9d9d9;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: var(--primary-color);
   color: var(--main-color);
@@ -18,7 +23,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 39px 194px 0 165px;
+  margin: 39px 194px 0 165px;
 }
 
 .name-logo {
@@ -34,19 +39,43 @@ body {
   justify-content: flex-end;
   gap: 32px;
   align-items: center;
+  z-index: 99;
 }
 
 /* flexbox intro section */
 
 .flex-intro-container {
   display: flex;
+  margin-left: 225px;
+  margin-right: 0;
 }
 
 .intro-container {
   width: 706px;
 }
 
+.profile-pic-container {
+  position: absolute;
+  margin-right: 0px;
+  left: 900px;
+  top: 0px;
+  right: 165px;
+}
+
 .profile-pic {
   width: 445px;
   height: 720px;
+}
+
+h1 {
+  font-size: 88px;
+  letter-spacing: -2.5px;
+  width: 709px;
+  z-index: 99;
+  position: relative;
+}
+
+.intro-p {
+  width: 445px;
+  font-size: 18px;
 }
