@@ -162,3 +162,10 @@ h1 {
 .margin-l {
   margin-left: auto;
 }
+
+h3 {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: 700;
+  letter-spacing: -2.5px;
+}
