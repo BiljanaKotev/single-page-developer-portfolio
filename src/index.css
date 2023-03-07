@@ -11,6 +11,14 @@
   padding: 0;
 }
 
+.fw-500 {
+  font-weight: 500px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
 body {
   background-color: var(--primary-color);
   color: var(--main-text-color);
