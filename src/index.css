@@ -28,6 +28,8 @@ body {
 main {
   margin-left: 165px;
   margin-right: 165px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 /* header logo and navbar */
@@ -36,7 +38,8 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 39px 125px 0 0;
+  margin-top: 39px;
+  width: 1070px;
 }
 
 .name-logo {
@@ -53,6 +56,7 @@ main {
   gap: 32px;
   align-items: center;
   z-index: 99;
+  margin-left: auto;
 }
 
 /* rings svg */
@@ -71,9 +75,9 @@ main {
   margin-top: 115px;
 }
 
-.intro-container {
+/* .intro-container {
   width: 706px;
-}
+} */
 
 .profile-pic-container {
   position: absolute;
@@ -98,7 +102,7 @@ main {
 h1 {
   font-size: 88px;
   letter-spacing: -2.5px;
-  width: 709px;
+  /* width: 709px; */
   z-index: 99;
   position: relative;
 }
@@ -113,7 +117,6 @@ h1 {
 
 .contact-link {
   font-size: 16px;
-  margin-top: 65px;
   display: inline-block;
   color: var(--main-text-color);
   line-height: 26px;
@@ -124,6 +127,9 @@ h1 {
   padding-bottom: 10px;
 }
 
+.cl-mt {
+  margin-top: 66px;
+}
 /* GRID work experience section */
 
 .work-experience {
@@ -142,4 +148,17 @@ h1 {
   font-weight: 700px;
   line-height: 56px;
   letter-spacing: -1.5px;
+}
+
+/* Projects section */
+
+/* FLEXBOX projects section header */
+.flex-projects-header {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+}
+
+.margin-l {
+  margin-left: auto;
 }
