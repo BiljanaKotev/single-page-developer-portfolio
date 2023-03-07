@@ -117,8 +117,12 @@ h1 {
 /* GRID work experience section */
 
 .work-experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 219px;
   border-top: 1px solid #d9d9d9;
   width: 1110px;
   margin: 219px 165px 140px 165px;
+  gap: 58px;
+  padding-top: 72px;
 }
