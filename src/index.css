@@ -181,3 +181,10 @@ h3 {
 .project-img {
   width: 540px;
 }
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+}
