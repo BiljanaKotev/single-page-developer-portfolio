@@ -178,6 +178,10 @@ h3 {
   gap: 30px;
 }
 
+.project-details {
+  position: relative;
+}
+
 .project-img {
   width: 540px;
   max-width: 100%;
@@ -207,6 +211,14 @@ h4 {
 
 .img-container:hover {
   opacity: 0.2;
+}
+
+.text-overlay {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media screen and (max-width: 869px) {
