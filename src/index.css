@@ -129,6 +129,10 @@ p {
   padding-bottom: 10px;
 }
 
+.contact-link:hover {
+  color: var(--secondary-color);
+}
+
 .cl-mt {
   margin-top: 66px;
 }
@@ -211,6 +215,7 @@ h4 {
 
 .img-container:hover {
   opacity: 0.2;
+  cursor: pointer;
 }
 
 .overlay {
