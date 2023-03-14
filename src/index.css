@@ -26,8 +26,7 @@ body {
 }
 
 main {
-  margin-left: 165px;
-  margin-right: 165px;
+  margin: 0 auto;
   max-width: 1200px;
   width: 100%;
 }
@@ -75,9 +74,9 @@ main {
   margin-top: 115px;
 }
 
-/* .intro-container {
-  width: 706px;
-} */
+.intro-container {
+  margin-bottom: 219px;
+}
 
 .profile-pic-container {
   position: absolute;
@@ -117,7 +116,8 @@ p {
 }
 
 .contact-link,
-.text-overlay {
+.text-overlay,
+.send-msg {
   font-size: 16px;
   display: inline-block;
   color: var(--main-text-color);
@@ -141,11 +141,20 @@ p {
 .work-experience {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 219px;
   border-top: 1px solid #d9d9d9;
-  width: 1110px;
-  margin: 219px 0 140px 0;
+  margin: 0 0 140px 0;
   padding-top: 72px;
+}
+
+.experience-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 100px;
+}
+
+.work-experience .experience-flex-container:nth-last-child(-n + 3) {
+  padding-bottom: 0;
 }
 
 .experience-title {
@@ -191,6 +200,13 @@ h3 {
   max-width: 100%;
   opacity: 1;
   transition: 0.5s ease;
+}
+
+.rings-container-2 {
+  left: 50%;
+  transform: translate(95%, 50%);
+  position: absolute;
+  top: 1050px;
 }
 
 h4 {
@@ -243,7 +259,7 @@ h4 {
   position: absolute;
   left: 0px;
   right: 0px;
-  top: 3000px;
+  top: 3250px;
 }
 
 .contact-container {
@@ -252,6 +268,11 @@ h4 {
   border-bottom: 1px solid white;
   margin-left: 165px;
   margin-right: 165px;
+}
+
+.rings-container-3 {
+  transform: translate(-70%);
+  margin-bottom: 50px;
 }
 
 .contact-form {
@@ -272,6 +293,10 @@ h4 {
   font-size: 88px;
 }
 
+.contact-info p {
+  margin-bottom: 50px;
+}
+
 input {
   width: 445px;
   height: 43px;
@@ -285,9 +310,19 @@ input.message {
   height: 107px;
 }
 
+.send-msg {
+  position: absolute;
+  transform: translate(1050px, 300px);
+  white-space: nowrap;
+}
+
 /* Footer */
 .footer {
-  margin: 47px auto;
+  margin: 47px auto 92px auto;
+}
+
+a .svg:hover path {
+  fill: var(--secondary-color);
 }
 
 /* MEDIA QUERIES */
