@@ -33,7 +33,7 @@
         <section class="intro-container">
           <h1>Nice to meet you! <br />I'm Adam Keyes.</h1>
           <p class="intro-p">Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.</p>
-          <a class="contact-link cl-mt" href="#">CONTACT ME</a>
+          <a class="contact-link cl-mt" href="#contact-form">CONTACT ME</a>
         </section>
         <div class="profile-pic-container">
           <img class="circle-img" src="assets/images/pattern-circle.svg" alt="circle image" />
@@ -75,7 +75,7 @@
       <div class="flex-projects-header">
         <h3>Projects</h3>
         <div>
-          <a class="contact-link margin-l" href="#">CONTACT ME</a>
+          <a class="contact-link margin-l" href="#contact-form">CONTACT ME</a>
         </div>
       </div>
 
@@ -183,11 +183,11 @@
               <object class="rings-svg-3" data="assets/images/pattern-rings.svg" title="image of rings"></object>
             </div>
           </div>
-          <div class="contact-form">
+          <div class="contact-form" id="contact-form">
             <form class="form">
-              <input class="name" type="text" placeholder="NAME" />
-              <input class="email" type="email" placeholder="EMAIL" />
-              <input class="message" type="text" placeholder="MESSAGE" />
+              <input class="name" type="text" placeholder="NAME" required />
+              <input class="email" type="email" placeholder="EMAIL" required />
+              <input class="message" type="text" placeholder="MESSAGE" required />
             </form>
           </div>
           <a class="send-msg" href="#">SEND MESSAGE</a>

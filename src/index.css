@@ -303,6 +303,7 @@ input {
   background-color: var(--medium-color);
   border: none;
   border-bottom: 1px solid white;
+  color: var(--main-text-color);
 }
 
 input.message {
