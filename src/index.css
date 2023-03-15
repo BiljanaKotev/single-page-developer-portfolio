@@ -398,7 +398,7 @@ a .svg:hover path {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 568px) {
   .projects-container {
     margin-right: 370px;
     grid-template-columns: 1fr 1fr;
@@ -532,5 +532,64 @@ a .svg:hover path {
     padding: 0 50px 0 50px;
     width: 650px;
     margin: 30px 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 130px;
+  }
+
+  .name-logo {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .nav-bar {
+    /* left: 0px; */
+    margin-left: 160px;
+    /* top: 90px; */
+  }
+
+  .intro-container {
+    margin-top: 250px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .profile-pic-container {
+    left: 105px;
+    z-index: -1;
+    top: 80px;
+    width: 225px;
+  }
+
+  .profile-pic {
+    width: 225px;
+  }
+
+  .bottom-container {
+    top: 2800px;
+    right: 0px;
+    left: -50px;
+  }
+
+  .contact-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .contact-info h2 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+  }
+
+  .contact-info p {
+    margin: 20px auto;
   }
 }
