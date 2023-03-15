@@ -129,7 +129,8 @@ p {
   padding-bottom: 10px;
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.send-msg:hover {
   color: var(--secondary-color);
 }
 
@@ -252,6 +253,10 @@ h4 {
   margin-bottom: 60px;
 }
 
+a .text-overlay:hover {
+  color: var(--secondary-color) !important;
+}
+
 /* Contact Section */
 
 .bottom-container {
@@ -312,9 +317,69 @@ input.message {
 }
 
 .send-msg {
-  position: absolute;
-  transform: translate(1050px, 300px);
   white-space: nowrap;
+  width: 175px;
+  background: var(--medium-color);
+  border: none;
+  border-bottom: 2px solid #4ee1a0;
+}
+
+.send-msg:hover {
+  cursor: pointer;
+}
+
+.text-area {
+  width: 445px;
+  background: var(--medium-color);
+
+  border: 1px solid var(--main-text-color);
+  color: var(--main-text-color);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.pop-up {
+  background: var(--secondary-color);
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 200px;
+  width: 350px;
+  border-radius: 5px;
+  padding: 25px;
+  box-shadow: 0px 0px 10px 1px #666;
+  display: none;
+}
+
+.pop-up p {
+  font-size: 26px;
+  margin-top: 100px;
+}
+
+.pop-up-close-btn {
+  background: none;
+  border: none;
+  position: absolute;
+  left: 370px;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+}
+
+.fa-circle-check {
+  position: absolute;
+  transform: translate(170%);
+  margin-bottom: 0px;
+  bottom: 150px;
+}
+
+.pop-up-close-btn:hover {
+  cursor: pointer;
 }
 
 /* Footer */
@@ -322,6 +387,7 @@ input.message {
   margin: 47px auto 92px auto;
 }
 
+/* social media links */
 a .svg:hover path {
   fill: var(--secondary-color);
 }
