@@ -22,7 +22,6 @@ form.addEventListener("submit", async (event) => {
     // clear the form
     textArea.value = "";
     inputs.forEach((input) => {
-      console.log(input);
       input.value = "";
     });
   } else {
