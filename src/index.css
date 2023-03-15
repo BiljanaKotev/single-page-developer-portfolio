@@ -117,7 +117,8 @@ p {
 
 .contact-link,
 .text-overlay,
-.send-msg {
+.send-msg,
+.project-links {
   font-size: 16px;
   display: inline-block;
   color: var(--main-text-color);
@@ -190,6 +191,10 @@ h3 {
   grid-template-columns: 1fr 1fr;
   margin-top: 80px;
   gap: 30px;
+}
+
+.project-links-container {
+  display: none;
 }
 
 .project-details {
@@ -311,14 +316,8 @@ input {
   color: var(--main-text-color);
 }
 
-input.message {
-  width: 445px;
-  height: 107px;
-}
-
 .send-msg {
   white-space: nowrap;
-  width: 175px;
   background: var(--medium-color);
   border: none;
   border-bottom: 2px solid #4ee1a0;
@@ -329,9 +328,9 @@ input.message {
 }
 
 .text-area {
+  font-size: 16px;
   width: 445px;
   background: var(--medium-color);
-
   border: 1px solid var(--main-text-color);
   color: var(--main-text-color);
   border-top-style: hidden;
@@ -383,6 +382,11 @@ input.message {
 }
 
 /* Footer */
+
+hr {
+  display: none;
+}
+
 .footer {
   margin: 47px auto 92px auto;
 }
@@ -400,6 +404,14 @@ a .svg:hover path {
     grid-template-columns: 1fr 1fr;
   }
 
+  .project-links-container {
+    display: block;
+  }
+
+  .project-links {
+    margin-right: 30px;
+  }
+
   body {
     display: grid;
     overflow-x: hidden;
@@ -410,6 +422,10 @@ a .svg:hover path {
     margin-right: -75px;
   }
 
+  h1 {
+    margin-bottom: 60px;
+  }
+
   .rings-container {
     left: -267px;
   }
@@ -417,14 +433,35 @@ a .svg:hover path {
   .intro-container {
     width: 400px;
     margin-left: 32px;
+    margin-bottom: 0;
   }
 
   .intro-container h1 {
     font-size: 72px;
   }
 
+  .profile-pic-container {
+    top: 0;
+    left: 480px;
+    right: 400px;
+  }
+
+  .nav-bar {
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+  }
+
   .profile-pic {
     width: 322px;
+    max-width: none;
+  }
+
+  .circle-img {
+    top: 390px;
+    right: 0px;
+    left: 250px;
+    max-width: none;
   }
 
   .contact-link {
@@ -434,19 +471,32 @@ a .svg:hover path {
   .work-experience {
     width: 708px;
     grid-template-columns: 250px 250px;
-    margin: 0;
-    width: 60%;
+    margin: 0 0 100px 32px;
+    width: none;
     gap: 94px;
   }
 
   .bottom-container {
-    top: 2650px;
+    top: 3150px;
+    width: 125%;
+    /* height: 110%; */
+  }
+
+  .contact-info {
+    height: 250px;
+  }
+
+  .contact-info p {
+    margin: 0;
   }
 
   .contact-container {
     width: 445px;
     text-align: center;
     flex-direction: column;
+    margin-top: 84px;
+    margin-bottom: 0px;
+    border: none;
   }
 
   .contact-form {
@@ -454,8 +504,33 @@ a .svg:hover path {
     display: flex;
   }
 
+  .fa-circle-check {
+    position: initial;
+    transform: none;
+  }
+
+  .pop-up p {
+    font-size: 18px;
+    margin-top: 25px;
+    width: 350px;
+  }
+
+  .rings-container-3 {
+    transform: translate(-110%, 350%);
+    margin: 0;
+  }
+
+  hr {
+    display: block;
+    margin-top: 50px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 720px;
+  }
+
   .footer {
     padding: 0 50px 0 50px;
     width: 650px;
+    margin: 30px 0 40px 0;
   }
 }
