@@ -432,7 +432,6 @@ a .svg:hover path {
 
   .intro-container {
     width: 400px;
-    margin-left: 32px;
     margin-bottom: 0;
   }
 
@@ -442,7 +441,7 @@ a .svg:hover path {
 
   .profile-pic-container {
     top: 0;
-    left: 480px;
+    left: 200px;
     right: 400px;
   }
 
