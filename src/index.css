@@ -398,142 +398,6 @@ a .svg:hover path {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 568px) {
-  .projects-container {
-    margin-right: 370px;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .project-links-container {
-    display: block;
-  }
-
-  .project-links {
-    margin-right: 30px;
-  }
-
-  body {
-    display: grid;
-    overflow-x: hidden;
-  }
-
-  main {
-    margin-left: 32px;
-    margin-right: -75px;
-  }
-
-  h1 {
-    margin-bottom: 60px;
-  }
-
-  .rings-container {
-    left: -267px;
-  }
-
-  .intro-container {
-    width: 400px;
-    margin-bottom: 0;
-  }
-
-  .intro-container h1 {
-    font-size: 72px;
-  }
-
-  .profile-pic-container {
-    top: 0;
-    left: 200px;
-    right: 400px;
-  }
-
-  .nav-bar {
-    position: absolute;
-    z-index: 1000;
-    right: 0;
-  }
-
-  .profile-pic {
-    width: 322px;
-    max-width: none;
-  }
-
-  .circle-img {
-    top: 390px;
-    right: 0px;
-    left: 250px;
-    max-width: none;
-  }
-
-  .contact-link {
-    margin-bottom: 60px;
-  }
-
-  .work-experience {
-    width: 708px;
-    grid-template-columns: 250px 250px;
-    margin: 0 0 100px 32px;
-    width: none;
-    gap: 94px;
-  }
-
-  .bottom-container {
-    top: 3150px;
-    width: 125%;
-    /* height: 110%; */
-  }
-
-  .contact-info {
-    height: 250px;
-  }
-
-  .contact-info p {
-    margin: 0;
-  }
-
-  .contact-container {
-    width: 445px;
-    text-align: center;
-    flex-direction: column;
-    margin-top: 84px;
-    margin-bottom: 0px;
-    border: none;
-  }
-
-  .contact-form {
-    margin-top: 50px;
-    display: flex;
-  }
-
-  .fa-circle-check {
-    position: initial;
-    transform: none;
-  }
-
-  .pop-up p {
-    font-size: 18px;
-    margin-top: 25px;
-    width: 350px;
-  }
-
-  .rings-container-3 {
-    transform: translate(-110%, 350%);
-    margin: 0;
-  }
-
-  hr {
-    display: block;
-    margin-top: 50px;
-    margin-left: 32px;
-    margin-right: 32px;
-    width: 720px;
-  }
-
-  .footer {
-    padding: 0 50px 0 50px;
-    width: 650px;
-    margin: 30px 0 40px 0;
-  }
-}
-
 @media screen and (max-width: 460px) {
   .header {
     flex-direction: column;
@@ -592,3 +456,161 @@ a .svg:hover path {
     margin: 20px auto;
   }
 }
+
+/* @media screen and (max-width: 650px) {
+  .projects-container {
+    margin-right: 370px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-links-container {
+    display: block;
+  }
+
+  .project-links {
+    margin-right: 30px;
+  }
+
+  body {
+    display: grid;
+    overflow-x: hidden;
+  }
+
+  main {
+    margin-left: 32px;
+    margin-right: -75px;
+  }
+
+  h1 {
+    margin-bottom: 60px;
+  }
+
+  .rings-container {
+    left: -267px;
+    top: 90px;
+  }
+
+  .flex-intro-container {
+    margin-top: 80px;
+  }
+
+  .intro-container {
+    width: 400px;
+    margin-bottom: 0;
+  }
+
+  .intro-container h1 {
+    font-size: 50px;
+    width: 380px;
+  }
+
+  .intro-p {
+    margin-top: 60px;
+    width: 300px;
+  }
+
+  .profile-pic-container {
+    top: 0;
+    left: 200px;
+    right: 400px;
+  }
+
+  .nav-bar {
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+  }
+
+  .profile-pic {
+    width: 322px;
+    max-width: none;
+  }
+
+  .circle-img {
+    top: 390px;
+    right: 0px;
+    left: 250px;
+    max-width: none;
+  }
+
+  .contact-link {
+    margin-bottom: 60px;
+  }
+
+  .work-experience {
+    width: 708px;
+    grid-template-columns: 250px 250px;
+    margin: 0 0 100px 32px;
+    width: none;
+    gap: 94px;
+  }
+
+  h3 {
+    font-size: 72px;
+  }
+  .bottom-container {
+    top: 3150px;
+    width: 125%;
+    /* height: 110%; */
+
+/* .contact-info {
+    height: 250px;
+  }
+
+  .contact-info p {
+    margin: 0 0 0 150px;
+  }
+
+  h2 {
+    font-size: 72px;
+  }
+
+  .contact-info p {
+    text-align: center;
+    margin-left: -50px;
+    margin-bottom: 50px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    margin: 84px 0 0 0;
+    border: none;
+    width: 445px;
+  }
+
+  .contact-form {
+    margin: 0;
+    display: flex;
+  }
+
+  .fa-circle-check {
+    position: initial;
+    transform: none;
+  }
+
+  .pop-up p {
+    font-size: 18px;
+    margin-top: 25px;
+    width: 350px;
+  }
+
+  .rings-container-3 {
+    transform: translate(-110%, 350%);
+    margin: 0;
+    position: absolute;
+    top: 800px;
+  }
+
+  hr {
+    display: block;
+    margin-top: 50px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 720px;
+  }
+
+  .footer {
+    padding: 0 50px 0 50px;
+    width: 650px;
+    margin: 30px 0 40px 0;
+  } */
