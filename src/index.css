@@ -398,7 +398,7 @@ a .svg:hover path {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 568px) {
+@media screen and (max-width: 568px) {
   .projects-container {
     margin-right: 370px;
     grid-template-columns: 1fr 1fr;
