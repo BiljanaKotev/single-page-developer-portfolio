@@ -282,9 +282,13 @@ a .text-overlay:hover {
   margin-bottom: 50px;
 }
 
+.contact-info {
+  margin-top: 84px;
+}
+
 .contact-form {
   width: 445px;
-  margin: 0 auto;
+  margin: 84px auto;
 }
 
 .form {
@@ -385,7 +389,11 @@ hr {
 }
 
 .footer {
-  margin: 47px auto 92px auto;
+  margin: 47px auto 0 auto;
+}
+
+.footer-icons {
+  margin-bottom: 92px;
 }
 
 /* social media links */
