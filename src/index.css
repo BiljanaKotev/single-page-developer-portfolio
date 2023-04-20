@@ -265,6 +265,10 @@ a .text-overlay:hover {
 
 /* Contact Section */
 
+.bottom-section {
+  background-color: #242424;
+}
+
 .contact-container {
   background-color: #242424;
   display: flex;
@@ -273,11 +277,26 @@ a .text-overlay:hover {
 
 .contact-container h2 {
   padding-top: 84px;
+  font-size: 88px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
+}
+
+.contact-rings {
+  position: relative;
+  top: 50px;
+  left: -350px;
+  bottom: 0px;
+}
+
+/* Footer */
+.footer {
+  margin: 0 auto;
+  margin-top: 95px;
+  padding-bottom: 92px;
 }
 
 /* 
